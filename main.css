@@ -1,20 +1,11 @@
-p{
-	font: ;
-}
-
-.general{
-	width: 100%;
-	height: 100%;
-	background: #006d8638;
-}
-
-.general p, ul, h3{
-	text-align: center;
+html{
+	background: #9a6eff56;
+	font: helvetica;
 }
 
 .superior{
 	width: 1000px
-	height: 350px;
+	heigth: 350px;
 	background: lightgrey;
 }
 
@@ -24,6 +15,8 @@ p{
 	line-height:100px;
 }
 
-html{
-	background: #f4363640;
-}
+.general{
+	width: 1800px;
+	min-height: 780px;
+	background: #80a6aff3;
+	margin: 20px auto;
