@@ -1,12 +1,22 @@
 html{
-	background: #9a6eff56;
-	font: helvetica;
+	background-image: url(background.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: repeat;
+	font-family: helvetica, sans-serif;
+}
+
+.general{
+	max-width: 1140px;
+	background: rgba(255, 241, 196, 0.9);
+	margin: auto;
+	font-weight: 550;
 }
 
 .superior{
-	width: 1000px
-	heigth: 350px;
-	background: lightgrey;
+	width: 100%;
+	height: 10%;
+	background: rgba(255, 241, 196);
 }
 
 .superior h1{
@@ -15,8 +25,36 @@ html{
 	line-height:100px;
 }
 
-.general{
-	width: 1800px;
-	min-height: 780px;
-	background: #80a6aff3;
-	margin: 20px auto;
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.wiki{
+	padding-bottom: 15px;
+}
+
+@media screen and (max-width: 640px){	
+	.wiki{	padding-left: 10%;
+			padding-right: 10%;
+			max-width: 80%;
+			height: auto;}	
+	.p1{	width: 80%;}
+	}
+
+@media screen and (min-width: 641px){
+	.p1{
+		padding-left: 1%;
+		padding-right: 1%;
+		max-width: 40%;
+	}
+	.wiki{
+		max-width: 90%;
+		height: auto;}
+	}
+@media screen and (min-width: 1440px){
+	.p1{
+		max-width: 60%;
+	}
+}
